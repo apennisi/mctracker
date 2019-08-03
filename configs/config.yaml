@@ -1,0 +1,24 @@
+Number: 2 #camera number
+
+#Plan View Params
+Planview: ../images/planview.png
+Show Planview: false
+
+#Camera Params
+Camera1: ../videos/View_001.mp4
+Homography1: ../configs/homography_001.yaml
+FOV1: ../images/area_cam_001.png
+Proximity1: false
+
+Camera2: ../videos/View_006.mp4
+Homography2: ../configs/homography_006.yaml
+FOV2: ../images/area_cam_006.png
+Proximity2: true
+
+#Tracker
+Kalman: ../configs/kalman_param.yaml
+
+#Detector Params
+Config: ../darknet/cfg/yolov3.cfg
+Weights: ../weights/yolov3.weights
+MinThreshold: 0.8
