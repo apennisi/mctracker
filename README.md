@@ -34,3 +34,6 @@ MCTracker is a multi camera tracker based on homography and costs. The costs are
 
 1. To launch the application: ```./multi_camera_tracker ../configs/config.yaml```
 2. To create a new homography file: ```./homography_app /path/to/the/source/image /path/to/the/destination/image /path/to/yaml/file (where you save the homography)```
+
+# LICENSE
+MIT
