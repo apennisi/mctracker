@@ -17,7 +17,7 @@ MCTracker is a multi camera tracker based on homography and costs. The costs are
 
 # How to build
 
-1. Clone *darknet* repository into the main folder (anyvision).
+1. Clone *darknet* repository into the main folder (mctracker).
 2. Modify the Makefile in order to use GPU (if any), to use OPENCV, and to build the library:
 	- GPU=1, LIBSO=1 and OPENCV=1
 3. If necessary, modify the cuda path as well as the architecture (inside the makefile)
@@ -27,7 +27,7 @@ MCTracker is a multi camera tracker based on homography and costs. The costs are
 6. Download the COCO weights: 
 	- [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
 	- Move the downloaded file into the folder *weights*
-7. In the main folder *anyvision*, create a folder build
+7. In the main folder *mctracker*, create a folder build
 8. navigate into the folder build and compile it with the following commands: ```cmake .. && make```
 
 # How it works
