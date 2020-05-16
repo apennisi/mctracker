@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 cmake_policy(SET CMP0060 NEW)
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall -O3 -g")
 
-project( anyvision )
+project( mctracker )
 
 
 find_package(OpenCV REQUIRED)
